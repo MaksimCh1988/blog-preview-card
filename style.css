@@ -5,10 +5,6 @@
   --grey: #7f7f7f;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 body {
   background-color: var(--yellow);
   font-family: 'Figtree', sans-serif;
@@ -20,6 +16,7 @@ body {
   width: 384px;
   padding: 24px;
   margin: 20px auto;
+  margin-top: 218px;
   flex-direction: column;
   justify-content: center;
   gap: 24px;
@@ -86,6 +83,7 @@ body {
 
   .card {
     width: 327px;
+    margin-top: 155px;
   }
 
   .card__img {
